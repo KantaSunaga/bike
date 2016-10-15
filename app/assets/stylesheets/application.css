@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+ .subject {
+          font-family: 'Impact',sans-serif;
+
+          font-size:60px;
+}
+
+.top-wrapper{
+             padding-top: 180px ;
+             padding-bottom:450px;
+             background-image :url(http://pictkan.com/uploads/converted/15/05/30/3534226238-bicycle-690580-g56-1920x1280-MM-100.jpg);
+             background-size:cover;
+             color:#EEEEEE;
+            }

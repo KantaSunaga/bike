@@ -1,0 +1,31 @@
+<div class = "top-wrapper">
+  <h1 class = "subject">Bicicletta Gate</h1>
+  <p>主要メーカーの最新ロードバイク＆フレームのカタログスペックを一括で比較</p>
+  <%repetition=0%>
+  <%while repetition<=4 do%>
+  <div>メーカー</div>
+  <select name="bike_maker" >
+     <option value="1">--選択なし--</option>
+     <option value="2">MERIDA</option>
+     <option value="3">Bianchi</option>
+     <option value="4">Felt</option>
+  </select>
+  <div>製品名</div>
+  <select name="bike_name" >
+    <option value="0">--選択なし--</option>
+    　<option value="1">Ride80</option>
+     <option value="2">SCULTURA DISC TEAM</option>
+     <option value="3">RIDE DISC ADVENTURE</option>
+  </select>
+  <div>サイズ</div>
+  <select name="bike_size" >
+    　<option value="0">--選択なし--</option>
+      <option value="1">47cm</option>
+      <option value="2">50cm</option>
+      <option value="3">50cm</option>
+      <option value="4">54cm</option>
+  </select>
+  <p>-------------------------------------</p>
+  <%repetition+=1%>
+  <%end%>
+</div>
